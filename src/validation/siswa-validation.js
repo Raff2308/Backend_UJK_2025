@@ -25,15 +25,6 @@ const siswaAlamat = joi.string()
         "any.required": "Alamat harus diisi"
     });
 
-// const siswaTglLahir = joi.date()
-//     .less('now') // tidak bisa dari masa depan
-//     .required()
-//     .messages({
-//         "date.base": "Tanggal lahir harus berupa tanggal yang valid",
-//         "date.less": "Tanggal lahir tidak bisa dari masa depan",
-//         "any.required": "Tanggal lahir harus diisi"
-//     });
-
 const siswaJurusan = joi.string()
     .min(2)
     .max(50)

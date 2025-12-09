@@ -43,9 +43,9 @@ const getAll = async () => {
             tgl_lahir: true,
             jurusan: true
         },
-        // orderBy: {
-        //     createdAt: "desc"
-        // }
+        orderBy: {
+            createdAt: "desc"
+        }
     });
 };
 
